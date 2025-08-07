@@ -1,0 +1,133 @@
+/* Root container */
+.employee-dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9f9ff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Heading */
+.employee-dashboard h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #2b2d42;
+}
+
+/* User Header */
+.header {
+  background: #edf2f7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header h2 {
+  margin-bottom: 10px;
+  color: #2a4365;
+}
+
+.header p {
+  margin: 4px 0;
+}
+
+/* Apply Form */
+.apply-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.apply-form h3 {
+  margin-bottom: 20px;
+  color: #2a4365;
+}
+
+.apply-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.apply-form input,
+.apply-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.apply-form input:focus,
+.apply-form textarea:focus {
+  border-color: #4299e1;
+}
+
+.apply-form button {
+  padding: 12px;
+  background: #3182ce;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.apply-form button:hover {
+  background: #2b6cb0;
+}
+
+/* Leave History */
+.leave-history {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.leave-history h3 {
+  margin-bottom: 15px;
+  color: #2a4365;
+}
+
+.leave-history ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.leave-history li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #f1f5f9;
+  border-left: 5px solid #4299e1;
+  border-radius: 8px;
+}
+
+/* Logout Button */
+.logout-btn {
+  padding: 12px 24px;
+  background: #e53e3e;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #c83333;
+}
