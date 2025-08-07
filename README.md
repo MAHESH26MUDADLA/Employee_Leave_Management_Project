@@ -1,4 +1,4 @@
-# Spring Boot Backend
+# Spring Boot Backend and React.js Frontend
 
 # Spring Boot Backend - Project Setup
 
@@ -28,6 +28,7 @@ mvn spring-boot:run
 
 
 ## Front End
+## React.js 
 
 cd frontend
 cd leavemanagement
