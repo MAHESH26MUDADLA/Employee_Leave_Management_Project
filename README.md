@@ -24,7 +24,7 @@ This is the backend of the application built using **Java Spring Boot**. This gu
 git clone https://github.com/MAHESH26MUDADLA/Employee_Leave_Management_Project.git
 cd backend 
 cd leavemanagement
-spring mvn spring-boot:run
+mvn spring-boot:run
 
 
 ## Front End
